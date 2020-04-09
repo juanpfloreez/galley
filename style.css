@@ -1,25 +1,26 @@
-
-
-body {
-    margin: auto;
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-
 * {
     box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 
 .header-div {
     border: 0px solid red;
-    padding: 0.5rem;
-    margin-top: 0rem;
-    margin-bottom: 2rem;
     background-color: slateblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 p {
@@ -29,17 +30,20 @@ p {
     
 }
 
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
 .indexnumberspan {
    
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: -10rem;
-    border: 0px solid red;
     
 }
 .indexnumber {
-    border: 0px solid red;
     width: 30px;
     height: 30px;
     display: flex;
@@ -71,6 +75,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
     
 } 
 
