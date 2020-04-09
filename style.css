@@ -16,6 +16,7 @@ body {
 
 .header-div {
     border: 0px solid red;
+    padding: 0.5rem;
     background-color: slateblue;
     display: flex;
     justify-content: center;
